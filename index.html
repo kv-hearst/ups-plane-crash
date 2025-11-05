@@ -29,18 +29,23 @@
             height: 100px;
             padding: 20px;
             border: 0px solid #ccc;
-            border-radius: 4px;
+            border-radius: 1px;
             margin-bottom: 400px;
             margin-top: 50vh;
             box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-            background-color: rgba(255, 255, 255, 0.92);
+            background-color: whitesmoke;
+
             backdrop-filter: blur(10px);
             font-size: 18px;
             line-height: 1.6;
             opacity: 0.9;
 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
         }
-        
+   
         .step:last-child {
             margin-bottom: 50vh;
         }
@@ -61,7 +66,7 @@
 <body>
     <div class="header">
         <!-- <h1>UPS plane crash timeline</h1> -->
-        <p>Scroll down to see how events unfolded.</p>
+        <p>Scroll below to see how events unfolded.</p>
     </div>
 
     <div class="scrolly-container" id="scrolly-container">
@@ -71,25 +76,30 @@
         <div class="step" id="step-1" data-image="assets/map-2.png">
             <p>5:12 PM: The plane made a final turn before takeoff.</p>
         </div>
-        <div class="step" id="step-1" data-image="assets/map-3.png">
+        <div class="step" id="step-3" data-image="assets/map-3.png">
             <p>5:13 PM: The plane reached top speed of 214 mph and caught fire while still on the runway.</p>
         </div>
 
-        <div class="step" id="step-2" data-image="assets/step-2.png">
+        <div class="step" id="step-4" data-image="assets/footage-1.png">
             <p>Footage shows the plane caught fire while still on the runway.</p>
              
         </div>
-        <div class="step" id="step-3" data-image="assets/map-4.png">
+        <div class="step" id="step-5" data-image="assets/map-4.png">
             <p>5:13:29 PM: Surveillance at a truck parts store shows the plane crashing into businesses.</p>
         </div>
-        <div class="step" id="step-4" data-image="assets/step-5.png">
+        <div class="step" id="step-6" data-image="assets/map-5.png">
             <p>The UPS cargo plane, which was fully fueled, spreads fire to nearby facilities including a large recycling center. </p>
         </div>
+        <div class="step" id="step-7" data-image="assets/footage-2.png">
+            <p>A shelter-in-place has been issued around the city's hazardous waste drop-off just south of the airport.  </p>
+        </div>
+
        
     </div>
 
     <div class="footer">
-        <p>Interactive: Katrina Ventura/Get the Facts Data Team</p>
+        <p>Interactive: Katrina Ventura and Annie Jennemann/Get the Facts Data Team</p>
+        <p>Source: Google Earth Pro, ADS-B Exchange, Flightradar 24</p>
     </div>
 
 <script>

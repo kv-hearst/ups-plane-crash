@@ -124,7 +124,9 @@ img#logo {
 }
 
 .footer p{
-    text-align: center;
+    text-align: left;
     font-size: 0.75rem;
     color: #666;
+    padding: 0px;
+    line-height: 0.4rem;
 }
