@@ -79,9 +79,9 @@ body {
 }
 p {
     font-size: 1.125rem;
-    line-height: 1.75rem;
+    /* line-height: 1.75rem; */
     color: #414141;
-    margin: 18px 0px 24px; 
+    /* margin: 18px 0px 24px;  */
     font-family: 'source-sans-pr-regular', Arial, Helvetica, sans-serif;
     font-weight: 300;
 }
@@ -90,10 +90,10 @@ h1 {
     font-family: 'Effra-Bold', Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-align: center;
-    margin: 18px 0px 24px; 
+    /* margin: 18px 0px 24px;  */
     font-size: 2em;
     font-weight: bold;
-    line-height: 1.7;
+    /* line-height: 1.7; */
     color: #000000;
     
 }
@@ -112,9 +112,9 @@ h3 {
     font-family: 'Effra-Bold', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.25em;
-    line-height: 1.5;
+  
     color: #000000;
-    margin-bottom: 10px;
+   
 }
 img#logo {
     display: block;
