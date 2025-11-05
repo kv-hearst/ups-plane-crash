@@ -127,6 +127,6 @@ img#logo {
     text-align: left;
     font-size: 0.75rem;
     color: #666;
-    padding: 0px;
-    line-height: 0.4rem;
+    
+    line-height: 1rem;
 }

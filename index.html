@@ -21,7 +21,7 @@
             background-size: cover;
             background-position: center;
             /* background-attachment: fixed; */
-            transition: background-image 0.5s ease-in-out;
+            transition: background-image 0.7s ease-in-out;
         }
         .step {
             max-width: 400px;
@@ -50,14 +50,17 @@
             margin-bottom: 50vh;
         }
 
-        @media (max-width: 300px) {
+        @media (max-width: 400px) {
             .scrolly-container {
                 width: 100%;
-                height: 400px;
+                height: 600px;
             }
             .step {
-                max-width: 90%;
+                max-width: 80%;
                 font-size: 16px;
+            }
+            .step p{
+                font-size: 1rem;
             }
         }
 
@@ -65,7 +68,6 @@
 </head>
 <body>
     <div class="header">
-        <!-- <h1>UPS plane crash timeline</h1> -->
         <p>Scroll below to see how events unfolded.</p>
     </div>
 
@@ -91,7 +93,7 @@
             <p>The UPS cargo plane, which was fully fueled, spreads fire to nearby facilities including a large recycling center. </p>
         </div>
         <div class="step" id="step-7" data-image="assets/footage-2.png">
-            <p>A shelter-in-place has been issued around the city's hazardous waste drop-off just south of the airport.  </p>
+            <p>A shelter-in-place was issued all the way north to Indiana.</p>
         </div>
 
        
